@@ -1,0 +1,15 @@
+# docker/Dockerfile.shiny
+FROM python:3.11-slim
+
+WORKDIR /app
+
+COPY shiny/ ./shiny/
+COPY shiny/requirements-shiny.txt .
+
+RUN pip install --no-cache-dir -r shiny/requirements-shiny.txt
+
+ENV PORT=8080
+EXPOSE 8080
+
+# Shiny for Python
+CMD ["sh", "-c", "shiny run --host 0.0.0.0 --port $PORT shiny/app.py"]
