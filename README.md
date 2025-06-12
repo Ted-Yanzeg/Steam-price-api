@@ -45,8 +45,19 @@ This repository contains a pipeline to:
 └── requirements-api.txt       # Flask API deps
 
 ``` 
+## 2. One-line prediction
 
-## 2. Quick Start
+```bash
+curl -X POST https://steam-price-api-255067357715.us-central1.run.app/predict \
+     -H 'Content-Type: application/json' \
+     -d '{"release_year":2024,"positive_ratio":0.90,"total_reviews":12000,"is_multiplayer":1,"genres":["Action","Adventure"]}'
+```
+Expected response
+```json
+{"predicted_price":47.5}
+```
+
+## 3. Quick Start
 
 ### Run locally with Docker
 ```
