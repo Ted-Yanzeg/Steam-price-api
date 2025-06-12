@@ -1,7 +1,7 @@
 # Live Demo
 - Github repo: [https://github.com/Ted-Yanzeg/Steam-price-api]
-- 🎮 Shiny App (frontend): [https://steam-price-ui-255067357715.us-central1.run.app]
-- 🔌 Prediction API: [https://steam-price-api-255067357715.us-central1.run.app]
+- Shiny App (frontend): [https://steam-price-ui-255067357715.us-central1.run.app]
+- Prediction API: [https://steam-price-api-255067357715.us-central1.run.app]
 
 
 # Steam Price Prediction Project
