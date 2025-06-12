@@ -13,7 +13,7 @@ This repository contains a pipeline to:
 4. Provide a py-Shiny front-end for interactive user input and chart visualization.
 5. Dockerize both back-end and front-end, and deploy them to Google Cloud Run.
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 ├── README.md                  # Main project description
