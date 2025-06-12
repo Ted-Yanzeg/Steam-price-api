@@ -3,12 +3,12 @@
 This folder contains the code and artifacts for training a Ridge regression model that predicts the (log-transformed) price of paid Steam games.
 
 ## File Structure
-
+```text
 model/
 ├── train_paid_only.py    # Script to train the regression model 
 ├── paid_price_model.pkl  # Saved model artifact (after training)
 └── README.md             # This file
-
+```
 ## Dependencies
 
 Install the required Python packages before running the training script:
