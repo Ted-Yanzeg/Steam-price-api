@@ -5,10 +5,11 @@ This folder holds **two Dockerfiles**—one for the *model API* and one for the
 them to Cloud Run (or any OCI-compatible runtime) without sharing volumes.
 
 ## file structure
+```text
 docker/
 ├── Dockerfile # Flask / FastAPI prediction API image
 └── Dockerfile.shiny # Shiny-for-Python front-end image
-
+```
 ## Dockerfile Build & test locally
 
 ```bash
