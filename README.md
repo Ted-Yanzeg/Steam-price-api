@@ -13,7 +13,7 @@ This repository contains a pipeline to:
 4. Provide a py-Shiny front-end for interactive user input and chart visualization.
 5. Dockerize both back-end and front-end, and deploy them to Google Cloud Run.
 
-## Repository Structure
+## 1. Repository Structure
 
 ```text
 ├── README.md                  # Main project description
@@ -39,7 +39,7 @@ This repository contains a pipeline to:
 └── requirements-shiny.txt     # Frontend deps
 ``` 
 
-## Quick Start
+## 2. Quick Start
 
 ### Run locally with Docker
 ```
@@ -57,7 +57,7 @@ docker run -d -p 8081:8080 \
 # 3. open the app
 open http://localhost:8081          # macOS
 ```
-## Delopy to google cloud run
+### Delopy to google cloud run
 
 Replace <DOCKERHUB_USER> with your own Docker Hub username.
 
