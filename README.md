@@ -14,7 +14,6 @@ This repository contains a pipeline to:
 5. Dockerize both back-end and front-end, and deploy them to Google Cloud Run.
 
 ## 📂 Repository Structure
-<details>
 
 ```text
 ├── README.md                  # Main project description
@@ -38,8 +37,6 @@ This repository contains a pipeline to:
 │   └── steam_games.csv        # Scraped dataset
 ├── requirements-api.txt       # Flask API deps
 └── requirements-shiny.txt     # Frontend deps
-
-</details>
 ``` 
 
 ## Quick Start
