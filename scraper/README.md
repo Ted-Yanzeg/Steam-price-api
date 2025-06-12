@@ -8,8 +8,9 @@ This script fetches metadata and review summaries for the top N Steam games and 
 scraper/
 ├── fetch_games.py         # Main script
 ├── README.md              # This file
-
+```
 After running, you will have:
+```text
 data/
 └── steam_games.csv        # Output CSV with the scraped data
 ``` 
