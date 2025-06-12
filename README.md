@@ -15,7 +15,6 @@ This repository contains a pipeline to:
 
 ## 📂 Repository Structure
 <details>
-<summary>click to expand</summary>
 
 ```text
 ├── README.md                  # Main project description
@@ -43,7 +42,7 @@ This repository contains a pipeline to:
 </details>
 ``` 
 
-# Quick Start
+## Quick Start
 
 ### Run locally with Docker
 ```
@@ -61,7 +60,7 @@ docker run -d -p 8081:8080 \
 # 3. open the app
 open http://localhost:8081          # macOS
 ```
-### Delopy to google cloud run
+## Delopy to google cloud run
 
 Replace <DOCKERHUB_USER> with your own Docker Hub username.
 
