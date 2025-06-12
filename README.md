@@ -7,7 +7,7 @@
 # Steam Price Prediction Project
 
 This repository contains a pipeline to:
-1. Scrape the top N Steam games’ metadata and reviews.
+1. Scrape the top 1000 Steam games’ metadata and reviews.
 2. Train a Ridge regression model to predict paid-game prices.
 3. Expose a Flask API that serves price predictions.
 4. Provide a py-Shiny front-end for interactive user input and chart visualization.
@@ -16,27 +16,34 @@ This repository contains a pipeline to:
 ## 1. Repository Structure
 
 ```text
-├── README.md                  # Main project description
+├── README.md                  # This file
+├── Presentation
+│   ├── Final Presentation.pdf
+│   ├── Final Presentation.pptx
+│   └── eda.ipynb              # EDA file
 ├── api/
-│   ├── README.md              # Describes Flask API
+│   ├── README.md              # Flask API README
 │   └── app.py                 # /predict endpoint
 ├── scraper/
-│   ├── README.md              # Web-scraping logic
+│   ├── README.md              # Web-scraping README
 │   └── fetch_games.py         # Fetch Steam data
 ├── model/
-│   ├── README.md              # Training notes
+│   ├── README.md              # Model REANDME
+│   ├── paid_price_model.pkl   # Saved model artifact (after training)
 │   └── train.py               # Ridge regression
 ├── shiny/
-│   ├── README.md              # py-Shiny frontend
+│   ├── README.md              # py-Shiny frontend README
+│   ├── requirements-shiny.txt # Frontend deps
 │   └── app.py                 # Interactive UI
 ├── docker/
-│   ├── README.md              # Docker docs
+│   ├── README.md              # Docker README
 │   ├── Dockerfile             # API container
 │   └── Dockerfile.shiny       # Shiny container
 ├── data/
+│   ├── README.md              
 │   └── steam_games.csv        # Scraped dataset
-├── requirements-api.txt       # Flask API deps
-└── requirements-shiny.txt     # Frontend deps
+└── requirements-api.txt       # Flask API deps
+
 ``` 
 
 ## 2. Quick Start
